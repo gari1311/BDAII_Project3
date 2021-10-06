@@ -9,11 +9,6 @@ import random as rnd
 # visualization
 import seaborn as sns
 import matplotlib.pyplot as plt
-get_ipython().run_line_magic('matplotlib', 'inline')
-
-#ignore warnings
-import warnings
-warnings.filterwarnings('ignore')
 
 # machine learning
 from sklearn.linear_model import LogisticRegression
