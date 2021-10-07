@@ -1,12 +1,14 @@
+# Name : Garima Gautam
+# Roll No. : 180001
+# Project3 SectionA
+
 import pandas as pd
 import matplotlib.pyplot as plt
 from pandas import DataFrame
-
 import seaborn as sb
 
 df = pd.read_csv('titanic dataset.csv')
 
-# Section A
 # Ques1 : Find out the overall chance of survival for a Titanic passenger
 print('Chance of survival for a Titanic passenger: ')
 print(df.survived.mean() * 100, '%')
@@ -91,8 +93,8 @@ print()
 
 # Ques10: What conclusions are you derived from the analysis?
 print("Conclusions: \n" + "1. Females have a much higher chance of survival than males."+
-    "\n2. People with higher socioeconomic class had a higher rate of survival"+
-    "\n3. People with no siblings or spouses were less to likely to survive than those with one or two"+
-    "\n4. People traveling alone are less likely to survive than those with 1-3 parents or children."+
-    "\n5. Babies are more likely to survive than any other age group."+
-    "\n6. People with a recorded Cabin number are, in fact, more likely to survive.")
+    "\n"+"2. People with higher socioeconomic class had a higher rate of survival"+
+    "\n"+"3. People with no siblings or spouses were less to likely to survive than those with one or two"+
+    "\n"+"4. People traveling alone are less likely to survive than those with 1-3 parents or children."+
+    "\n"+"5. Babies are more likely to survive than any other age group."+
+    "\n"+"6. People with a recorded Cabin number are, in fact, more likely to survive.")
