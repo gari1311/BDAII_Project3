@@ -7,6 +7,8 @@
 import pandas as pd
 import numpy as np
 import random as rnd
+import warnings
+warnings.filterwarnings('ignore')
 
 # visualization
 import seaborn as sns
@@ -333,7 +335,7 @@ coeff_df.sort_values(by='Correlation', ascending=False)
 
 logreg = LogisticRegression()
 logreg.fit(X_train, Y_train)
-acc_log = round(logreg.score(X_train, Y_train) * 100, 2)
+acc_log = round(logReg.score(X_train, Y_train) * 100, 2)
 acc_log
 
 
