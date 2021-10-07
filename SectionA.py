@@ -6,6 +6,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from pandas import DataFrame
 import seaborn as sb
+import warnings
+warnings.filterwarnings('ignore')
 
 df = pd.read_csv('titanic dataset.csv')
 
